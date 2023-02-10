@@ -1,0 +1,7 @@
+name: main
+on: [push]
+jobs:
+  sleep:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 60
